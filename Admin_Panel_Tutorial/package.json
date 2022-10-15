@@ -1,0 +1,51 @@
+{
+  "name": "admin_panel",
+  "version": "q.0.0",
+  "private": true,
+  "dependencies": {
+    "@eosdacio/ual-wax": "^1.5.1",
+    "@tanstack/react-query": "^4.3.9",
+    "@waxio/waxjs": "^1.0.4",
+    "atomicassets": "^1.4.2",
+    "axios": "^0.27.2",
+    "crypto-browserify": "^3.12.0",
+    "eos-common": "^0.9.0",
+    "helmet": "^5.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1",
+    "react-number-format": "^4.9.3",
+    "react-router-dom": "^6.2.1",
+    "react-scripts": "5.0.0",
+    "react-select": "^5.3.2",
+    "stream-browserify": "^3.0.0",
+    "terser-webpack-plugin": "^5.3.6",
+    "ual-anchor": "^1.2.0",
+    "ual-reactjs-renderer": "^0.3.1"
+  },
+  "scripts": {
+    "start": "PORT=3006 react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "tailwindcss": "^3.0.19"
+  }
+}
